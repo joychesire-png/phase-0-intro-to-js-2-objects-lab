@@ -16,7 +16,7 @@ function deleteFromEmployeeByKey(employee, key) {
   delete newEmployee[key];
   return newEmployee;
 }
-// 4. Mutates the original employee object by deleting the specified key, returns the mutated object
+
 function destructivelyDeleteFromEmployeeByKey(employee, key) {
   delete employee[key];
   return employee;
